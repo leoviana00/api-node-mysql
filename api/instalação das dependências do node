@@ -1,0 +1,11 @@
+# Dentro da pasta api vai ser intalado as dependencias do node da máquina
+cd api
+npm init
+
+#Instalação do nodemon para manter a aplicação node rodando e fazer reload sempre que os arquivos java scripts forem atualizados
+npm install --save-dev nodemon 
+
+#Instalação do express pra fazer a rota e retornar os produtos e o drive mysql que vai facilitar acessar o banco
+npm install --save express mysql
+
+# No packege.jason tem que criar o comando start executando o nodemon "start": "nodemon ./src/index.js"

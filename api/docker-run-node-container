@@ -1,0 +1,1 @@
+docker run -d -v $(pwd)/api:/home/node/app -p 9001:9001 --rm --name node-container node-image --
